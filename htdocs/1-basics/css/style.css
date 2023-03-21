@@ -1,0 +1,12 @@
+.photo-container {
+    display: flex;
+    justify-content: center;
+
+    width: 600px;
+    background-color: yellow;
+    padding: 100px;
+}
+
+.rounded {
+    border-radius: 30px;
+}

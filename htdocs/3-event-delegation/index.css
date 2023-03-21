@@ -1,0 +1,60 @@
+body {
+    font-size: 24px;
+}
+
+div, h1, span, p, input {
+    border: 3px solid rgb(65, 59, 59);
+}
+
+.boxy {
+    width: 500px;
+}
+
+.smaller {
+    width: 60%;
+    height: 60%;
+}
+
+.paddy {
+    padding: 20px;
+}
+
+#outer-div {
+    background-color: #bada55;
+
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#inner-div {
+    background-color: rgb(147, 147, 156);
+    color: rgb(36, 31, 31);
+
+    font-size: 0.8em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#adjacent-div {
+    background-color: pink;
+    font-size: 2em;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+
+    background-color: white;
+    border-radius: 20px;
+    color: red;
+}
+
+input {
+    padding: 15px;
+}
