@@ -1,7 +1,7 @@
 // http://127.0.0.1:8080/2-fetch/index.html
 
 async function picIds() {
-  let response = await fetch("/api/images.php");
+  let response = await fetch("../api/images.php");
   let ids = await response.json();
 
   buildList(ids);
