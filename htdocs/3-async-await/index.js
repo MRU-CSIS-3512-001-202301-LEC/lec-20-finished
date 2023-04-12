@@ -6,5 +6,5 @@ async function picIds() {
   return ids;
 }
 
-let ids = picIds();
+let ids = await picIds();
 console.log("The ids are:", ids);
